@@ -89,3 +89,36 @@ section{
     }
   }
 }
+.features-section{
+  background-color: #20272E;
+  color: white;
+
+  ul.features-list{
+    margin: 0;
+    padding: 1em;
+
+    li{
+      font-size: 1.2em;
+      margin-bottom: 1.5em;
+      margin-left: 2em;
+      position: relative;
+
+      //this list-style-image is simpler than the one showed, but can't add space between img and text.
+      // list-style-image: url('https://assets.codepen.io/2621168/bullet.svg');
+
+      &:before{
+        content: ' ';
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-image: url('../images/bullet.svg');
+        background-size: contain;
+        margin-left: -1.8em;
+      }
+    }
+  }
+  
+  img{
+    display: none;
+  }
+}

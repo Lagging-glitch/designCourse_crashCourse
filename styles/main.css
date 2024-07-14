@@ -78,4 +78,31 @@ section {
 }
 .hero .watch-cta img {
   margin-right: 0.5em;
+}
+
+.features-section {
+  background-color: #20272E;
+  color: white;
+}
+.features-section ul.features-list {
+  margin: 0;
+  padding: 1em;
+}
+.features-section ul.features-list li {
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+  margin-left: 2em;
+  position: relative;
+}
+.features-section ul.features-list li:before {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url("../images/bullet.svg");
+  background-size: contain;
+  margin-left: -1.8em;
+}
+.features-section img {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
