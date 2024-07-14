@@ -17,7 +17,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: black;
-    font-size: 1.2em;
+    font-size: 1.4em;
 
     span {
       color: var(--primary-color);
@@ -74,9 +74,10 @@ section {
     text-decoration: none;
     background-color: var(--primary-color);
     color: white;
-    padding: 1.3em 1.8em;
+    padding: .6em 1.5em;
     border-radius: 5em;
     font-weight: bold;
+    font-size: 1.5em;
     display: inline-block;
   }
 
@@ -88,13 +89,20 @@ section {
       margin-right: 0.5em;
     }
   }
+
+  .hero-illustration{
+    margin-top: 4em;
+    width: 70%;
+    margin-bottom: 3em;
+  }
 }
 .features-section {
   background-color: #20272e;
   color: white;
 
   ul.features-list {
-    margin: 0;
+    margin-top: 3em;
+    margin-bottom: 1em;
     padding: 1em;
 
     li {
@@ -133,15 +141,50 @@ section {
     text-align: center;
     border-radius: 1em;
     margin: 3em auto 5em auto;
-    width: 65%;
-    padding: 1em 2em;
+    width: 60%;
+    padding: 2.5em 5em;
 
     img {
       width: 5em;
       height: 5em;
       border-radius: 50%;
       border: 5px solid #006bd6;
-      margin-top: -4.5em;
+      margin-top: -5em;
     }
   }
+}
+
+h2{
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+label{
+  display: block;
+  font-size: 1.3em;
+  margin-bottom: .5em;
+}
+
+input, textarea{
+  width:100%;
+  padding: 1em;
+  border-radius: .5em;
+  border: 1px solid grey;
+}
+.message-cta{
+  background-color: var(--primary-color);
+  color: white;
+  width: unset;
+  font-size: 1.5em;
+  font-weight: bold;
+  border-radius: 5em;
+  padding: .8em 2em;
+  margin-top: 1em;
+  cursor: pointer;
+}
+
+iframe{
+  width: 100%;
+  height: 300px;
+  margin-top: 6em;
 }
